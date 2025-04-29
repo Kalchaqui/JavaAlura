@@ -2,10 +2,11 @@ public class Decisiones {
 
     public static void main(String[] args) {
         int fechaDeLanzamiento = 1999;
-        boolean incluioEnElPlan = false;
+        boolean incluioEnElPlan = true;
         double notaDeLaPelicula = 8.2;
         String tipoPlan = "plus";
 
+        //CODIGO QUE PRUEBA LOS OPERADORES RELACIONALES
         if (fechaDeLanzamiento >= 2024) {
             System.out.println("Peliculas mas populares");
         }else {
